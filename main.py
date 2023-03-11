@@ -1,6 +1,6 @@
 import random
 
-print('Welcome to ChatBot!')
+print('Welcome to Heshmat!')
 
 greetings = ['Hello!', 'What"s up?', 'Howdy!', 'Greetings!']
 goodbyes = ['Bye', 'Goodbye', 'See you later!', 'See you soon']
@@ -27,7 +27,7 @@ while True:
     found_keyword = False
     for i, keyword in enumerate(keywords):
         if keyword in user_input:
-            print(f'Bot: {responses[i]}')
+            print(f'Heshmat: {responses[i]}')
             found_keyword = True
             break
             
